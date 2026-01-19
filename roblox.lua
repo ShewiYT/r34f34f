@@ -308,7 +308,7 @@ local function createMainUI()
     end)
     
     local freeButton = Instance.new("TextButton", mainFrame)
-    freeButton.Text = "FREE KEY (3 DAY)"
+    freeButton.Text = "FREE KEY (3 DAY) PRESS F5"
     freeButton.TextColor3 = Color3.fromRGB(0, 255, 0)
     freeButton.BackgroundColor3 = Color3.fromRGB(20, 40, 20)
     freeButton.Size = UDim2.new(0.8, 0, 0, 45)
@@ -318,7 +318,7 @@ local function createMainUI()
     freeButton.BorderSizePixel = 0
     
     local buyButton = Instance.new("TextButton", mainFrame)
-    buyButton.Text = "BUY LIFETIME ACCESS"
+    buyButton.Text = "BUY LIFETIME ACCESS - PRESS F5"
     buyButton.TextColor3 = Color3.fromRGB(255, 100, 0)
     buyButton.BackgroundColor3 = Color3.fromRGB(40, 20, 20)
     buyButton.Size = UDim2.new(0.8, 0, 0, 45)
